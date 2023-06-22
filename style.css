@@ -1,0 +1,19 @@
+css
+
+
+body {
+    background-color:#FDF8D8;
+    font-family: 'Courier New', Courier, monospace;
+    width: 800px; 
+    margin: auto;
+    color: #23231A;
+    }
+h1 {
+    color: #DA7422; 
+    font-family: Courier;
+    font-weight: bold;
+    }
+p { 
+    color: #23231A;
+    font-family: 'Courier New', Courier, monospace;
+    }
