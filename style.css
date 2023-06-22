@@ -7,13 +7,16 @@ body {
     width: 800px; 
     margin: auto;
     color: #23231A;
+    text-align: center;
     }
 h1 {
     color: #DA7422; 
     font-family: Courier;
     font-weight: bold;
+    text-align: center;
     }
 p { 
     color: #23231A;
     font-family: 'Courier New', Courier, monospace;
+    text-align: center;
     }
