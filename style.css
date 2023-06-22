@@ -10,14 +10,7 @@ body {
     text-align: center;
     }
 ::selection {
-        /* Change highlight background color to black */
         background: #709255;
-        /* Change highlight text color to red */
-        color: #FDF8D8;
-      }    ::selection {
-        /* Change highlight background color to black */
-        background: #709255;
-        /* Change highlight text color to red */
         color: #FDF8D8;
       }
 h1 {
