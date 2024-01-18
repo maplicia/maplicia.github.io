@@ -127,7 +127,7 @@ a:focus {
 	width: var(--marquee-width);
 	overflow: hidden;
 	pointer-events: none;
-	mix-blend-mode: color-burn;
+	color: #4d6648;
 }
 
 .marquee__inner {
