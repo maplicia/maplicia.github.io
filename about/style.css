@@ -59,7 +59,6 @@ a:focus {
 .frame__demos a:not(:last-child) {
 	margin-right: 1rem;
 }
-
 .frame__demos {
 	margin: 1rem 0;
 }
