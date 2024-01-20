@@ -207,4 +207,16 @@ a:focus {
 	.frame a {
 		pointer-events: auto;
 	}
+	.button {
+		border: none;
+		background-color: #4d6648;
+		padding: 2rem 2vw;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-family: sofia-pro, sans-serif;
+		font-size: 1em;
+		cursor: pointer;
+		margin: 1em 33vw;
+		} 
 }
