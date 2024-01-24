@@ -127,7 +127,7 @@ a:focus {
 	top: 0;
 	left: 0;
 	width: var(--marquee-width);
-	overflow: hidden;
+	overflow-x: hidden;
 	pointer-events: none;
 	color: #4d6648;
 }
