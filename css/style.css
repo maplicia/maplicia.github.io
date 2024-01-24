@@ -9,7 +9,7 @@
 }
 
 body {
-	margin: 0;
+	margin: 3em 3vw;
 	padding: 3em 5vw;
 	--color-text: #111;
 	--color-bg: #f8ecde;
@@ -218,5 +218,6 @@ a:focus {
 		font-family: sofia-pro, sans-serif;
 		font-size: 1em;
 		cursor: pointer;
+		margin: 3rem 3vw;
 		} 
 }
