@@ -25,20 +25,12 @@ body {
 
 .container__left {
   padding: 3rem 5vw;
-	text-align: left;
-	position: relative;
-	z-index: 1000;
-	line-height: 1.5;
-  width: 50%
+display: flex'
 }
 
 .container__right {
   padding: 3rem 5vw;
-	text-align: right;
-	position: relative;
-	z-index: 1000;
-	line-height: 1.5;
-  	width: 50%
+flex: 1;
 }
 
 a {
