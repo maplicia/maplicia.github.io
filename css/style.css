@@ -25,12 +25,14 @@ body {
 
 .container__left {
   padding: 3rem 5vw;
-display: flex'
+display: flex;
+size: 50%
 }
 
 .container__right {
   padding: 3rem 5vw;
 flex: 1;
+size: 50%;
 }
 
 a {
