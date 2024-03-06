@@ -65,7 +65,7 @@ a:focus {
 }
 
 .frame {
-	padding: 3rem 5vw;
+	padding: 5vw;
 	text-align: center;
 	position: relative;
 	z-index: 1000;
