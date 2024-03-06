@@ -23,6 +23,22 @@ body {
 	font-family: sofia-pro, sans-serif;
 }
 
+h1 {
+	margin: 0;
+	padding: 3em 5vw;
+	--color-text: #111;
+	--color-bg: #f8ecde;
+	--color-link: #b19e7f;
+	--color-link-hover: #000;
+	color: var(--color-text);
+	background-color: var(--color-bg);
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-family: sofia-pro, sans-serif;
+	font-weight: 900;
+	font-style: italic;
+}
+
 .container__left {
   padding: 3rem 5vw;
 display: flex;
