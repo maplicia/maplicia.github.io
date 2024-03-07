@@ -15,7 +15,7 @@ body {
 	--color-text: #111;
 	--color-bg: #f8ecde;
 	--color-link: #111;
-	--color-link-hover: #000;
+	--color-link-hover: #fff;
 	color: var(--color-text);
 	background-color: var(--color-bg);
 	-webkit-font-smoothing: antialiased;
@@ -29,7 +29,7 @@ h1 {
 	--color-text: #111;
 	--color-bg: #f8ecde;
 	--color-link: #b19e7f;
-	--color-link-hover: #000;
+	--color-link-hover: #fff;
 	color: var(--color-text);
 	background-color: var(--color-bg);
 	-webkit-font-smoothing: antialiased;
@@ -245,7 +245,7 @@ a:focus {
 		padding: 2rem 2vw;
 		text-align: center;
 		text-decoration: none;
-		display: flex;
+		display: inline-flex;
 		font-family: sofia-pro, sans-serif;
 		font-size: 1em;
 		cursor: pointer;
