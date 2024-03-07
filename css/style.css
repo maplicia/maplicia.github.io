@@ -14,7 +14,7 @@ body {
 	padding: 3em 5vw;
 	--color-text: #111;
 	--color-bg: #f8ecde;
-	--color-link: #b19e7f;
+	--color-link: #111;
 	--color-link-hover: #000;
 	color: var(--color-text);
 	background-color: var(--color-bg);
@@ -245,10 +245,12 @@ a:focus {
 		padding: 2rem 2vw;
 		text-align: center;
 		text-decoration: none;
-		display: inline-block;
+		display: flex;
 		font-family: sofia-pro, sans-serif;
 		font-size: 1em;
 		cursor: pointer;
-		margin: 3rem 3vw;
+		margin: auto;
+    align-items: center;
+    justify-content: center;
 		} 
 }
