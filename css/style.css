@@ -252,13 +252,16 @@ a:focus {
 		margin: auto;
 		width: 50%
 		} 
-	#right {
-			float: right;
-			width: 50%;
-		  }
-	#left {
-			float: left;
-			width: 50%;
-		  }
+		.left{
+			width:50%;
+			float:left;
+			height:100%;
+		}
+		
+		.right{
+			width:50%;
+			float:right;
+			height:100%;
+		}
 
 }
