@@ -245,7 +245,7 @@ a:focus {
 		padding: 2rem 2vw;
 		text-align: center;
 		text-decoration: none;
-		display: inline-flex;
+		display: inline-block;
 		font-family: sofia-pro, sans-serif;
 		font-size: 1em;
 		cursor: pointer;
