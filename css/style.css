@@ -242,7 +242,7 @@ a:focus {
 	.button {
 		border: none;
 		background-color: #4d6648;
-		padding: 2rem 2vw;
+		padding: 2em;
 		text-align: center;
 		text-decoration: none;
 		display: block;
