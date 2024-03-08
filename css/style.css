@@ -250,17 +250,15 @@ a:focus {
 		font-size: 1em;
 		cursor: pointer;
 		margin: auto;
-		width: 100%
+		width: 50%
 		} 
 	#right {
 			float: right;
 			width: 50%;
-			background: lightblue;
 		  }
-		#left {
+	#left {
 			float: left;
 			width: 50%;
-			background: lightgreen;
 		  }
 
 }
