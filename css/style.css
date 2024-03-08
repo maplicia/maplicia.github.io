@@ -253,7 +253,7 @@ a:focus {
 		width: 50%
 		} 
 
-		.flex-container {
+.flex-container {
 			display: flex;
 			flex-flow: row wrap;
 			justify-content: space-around;
@@ -262,7 +262,7 @@ a:focus {
 			list-style: none;
 		  }
 		  
-		  .flex-item {
+.flex-item {
 			padding: 5px;
 			width: 15%;
 			height: 15%;
