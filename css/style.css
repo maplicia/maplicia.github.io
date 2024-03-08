@@ -252,5 +252,15 @@ a:focus {
 		margin: auto;
 		width: 100%
 		} 
+		#right {
+			float: right;
+			width: 50%;
+			background: lightblue;
+		  }
+		  #left {
+			float: left;
+			width: 50%;
+			background: lightgreen;
+		  }
 
 }
