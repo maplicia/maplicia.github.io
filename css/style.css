@@ -251,4 +251,9 @@ a:focus {
 		cursor: pointer;
 		margin: auto;
 		} 
+footer {
+	text-align: center;
+	padding: 3px;
+	color: #111;
+		  }
 }
