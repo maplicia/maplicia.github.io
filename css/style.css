@@ -23,6 +23,7 @@ p {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	font-family: sofia-pro, sans-serif;
+	width: 75%;
 }
 
 h1 {
@@ -69,11 +70,12 @@ h1 {
 		padding: 1em;
 		text-align: center;
 		text-decoration: none;
-		display: block;
+		display: inline-block;
 		font-family: sofia-pro, sans-serif;
 		font-size: 1em;
 		cursor: pointer;
 		margin: 1em;
+		width:12em;
 		}
 		a {
 			color: inherit; 
@@ -93,6 +95,7 @@ h1 {
   width: 50%;
   padding: 10px;
   display: inline-block;
+  margin:auto;
 }
 
 
