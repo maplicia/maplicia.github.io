@@ -1,5 +1,5 @@
 body {
-	font-size: 1rem;
+	font-size: 1.2em;
 	margin: 0;
 	padding: 3em 5vw;
 	--color-text: #111;
@@ -27,9 +27,9 @@ p {
 }
 
 h1 {
-	font-size:1.2rem;
+	font-size:2em;
 	margin: 0;
-	--color-text: #111;
+	--color-text: #4d6648;
 	--color-bg: #f8ecde;
 	--color-link: #111;
 	--color-link-hover: #fff;
@@ -64,6 +64,8 @@ h1 {
 .button {
 		border: none;
 		background-color: #4d6648;
+		--color-link: #f8ecde;
+		--color-link-hover: #111;
 		padding: 1em;
 		text-align: center;
 		text-decoration: none;
@@ -72,8 +74,7 @@ h1 {
 		font-size: 1em;
 		cursor: pointer;
 		margin: 1em;
-		color: #f8ecde;
-		} 
+		}
 * {
 	box-sizing: border-box;
 	}
@@ -90,4 +91,8 @@ h1 {
   display: table;
   clear: both;
 }
+
+img {
+	clip-path:circle();
+  }
 
