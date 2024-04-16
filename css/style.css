@@ -14,7 +14,6 @@ body {
 }
 
 p {
-	font-size: 5vw;
 	--color-text: #111;
 	--color-bg: #f8ecde;
 	--color-link: #111;
@@ -99,9 +98,6 @@ h1 {
 	  float: none; 
 	  padding: 10px 0; 
 
-img {
-	clip-path:circle();
-  }
 
   a {
 	  color: inherit; 
