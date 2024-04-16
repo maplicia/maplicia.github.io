@@ -1,5 +1,5 @@
 body {
-	font-size: 1vw;
+	font-size: 1rem;
 	margin: 0;
 	padding: 3em 5vw;
 	--color-text: #111;
@@ -27,6 +27,7 @@ p {
 }
 
 h1 {
+	font-size:1.2rem;
 	margin: 0;
 	--color-text: #111;
 	--color-bg: #f8ecde;
@@ -71,7 +72,7 @@ h1 {
 		font-size: 1em;
 		cursor: pointer;
 		margin: 1em;
-		text-color: #f8ecde;
+		color: #f8ecde;
 		} 
 * {
 	box-sizing: border-box;
