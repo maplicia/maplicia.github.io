@@ -14,6 +14,7 @@ body {
 }
 
 p {
+	font-size: 5vw;
 	--color-text: #111;
 	--color-bg: #f8ecde;
 	--color-link: #111;
