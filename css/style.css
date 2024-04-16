@@ -49,7 +49,7 @@ h1 {
     padding: 0;
     margin: 0;
     list-style: none;
-	align-content: center;
+	align-items: center;
       }
       
 .flex-item {
@@ -107,11 +107,6 @@ h1 {
 	  width: 100%;
 	  float: none; 
 	  padding: 10px 0; 
-
-
-.pfp{
-	clip-path="circle"
-}
 
 
 
