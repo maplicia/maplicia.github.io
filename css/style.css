@@ -10,6 +10,7 @@
 
 
 body {
+	font-size: 2em;
 	margin: 0;
 	padding: 3em 5vw;
 	--color-text: #111;
