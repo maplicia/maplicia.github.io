@@ -93,6 +93,12 @@ h1 {
   clear: both;
 }
 
+@media screen and (max-width: 600px) {
+	.column {
+	  width: 100%;
+	  float: none; 
+	  padding: 10px 0; 
+
 img {
 	clip-path:circle();
   }
