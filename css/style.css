@@ -93,9 +93,8 @@ h1 {
 .column {
   width: 50%;
   padding: 10px;
-  display: inline-block;
   margin:auto;
-  align-items: center;
+  float: left;
 }
 
 
@@ -104,6 +103,14 @@ h1 {
   display: table;
   clear: both;
 }
+
+.images-wrapper {  
+column-count:2;  
+margin: auto;
+padding: 1em;
+max-width:100%;
+align-items:center;
+ }  
 
 @media screen and (max-width: 600px) {
 	.column {
