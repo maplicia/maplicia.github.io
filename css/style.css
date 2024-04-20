@@ -105,11 +105,10 @@ h1 {
 }
 
 .images-wrapper {  
-column-count:2;  
-margin: auto;
+column-count:3;  
+margin: 0 auto;
 padding: 1em;
 max-width:100%;
-align-items:center;
  }  
 
 @media screen and (max-width: 600px) {
