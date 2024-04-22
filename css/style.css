@@ -113,13 +113,13 @@ max-width:100%;
 
 @media screen and (max-width: 600px) {
 	.column {
-		 margin-left: auto;
-			margin-right: auto;
-	  width: 100%;
-			justify-content: center;
+	display:inline-flex;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
 	}
 	.images-wrapper {
-			column-count: 1;
+	column-count: 1;
 	}
 }
 
