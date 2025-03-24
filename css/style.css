@@ -133,18 +133,18 @@ max-width:100%;
 	overflow: hidden;
   }
   
-  .marquee {
+.marquee {
 	white-space: nowrap;
 	overflow: hidden;
 	display: inline-block;
 	animation: marquee 10s linear infinite;
   }
   
-  .marquee p {
+.marquee p {
 	display: inline-block;
   }
   
-  @keyframes marquee {
+@keyframes marquee {
 	0% {
 	  transform: translate3d(0, 0, 0);
 	}
