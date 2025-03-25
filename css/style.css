@@ -160,35 +160,25 @@ max-width:100%;
   }
 
 
-/* Style the container to make the iframe responsive */
-.iframe-container {
-    position: relative;
-    width: 100%;
-    padding-top: 56.25%; /* 16:9 Aspect Ratio */
-    overflow: hidden;
-}
-
-/* Style the iframe to fill the container */
-iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
-
-/* Responsive Breakpoints for different screen sizes */
-@media (max-width: 768px) {
-    .iframe-container {
-        padding-top: 75%; /* 4:3 Aspect Ratio on smaller screens */
-    }
-}
-
-@media (max-width: 480px) {
-    .iframe-container {
-        padding-top: 100%; /* 1:1 Aspect Ratio on very small screens */
-    }
-}
+  html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+  }
+  
+  /* Embed container with responsive width and height */
+  .embed-container {
+	position: relative;
+	width: 100%;
+	height: 100vh; /* Full height of the viewport */
+  }
+  
+  embed {
+	width: 100%;
+	height: 100%;
+	border: none; /* Optional: removes the default border around the embed */
+  }
 
 
 
