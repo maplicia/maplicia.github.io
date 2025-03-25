@@ -1,6 +1,6 @@
 body {
 	font-size: 1.2em;
-	margin: auto;
+	margin: 0;
 	padding: 3em 5vw;
 	--color-text: #111;
 	--color-bg: #f8ecde;
@@ -12,8 +12,6 @@ body {
 	-moz-osx-font-smoothing: grayscale;
 	font-family: sofia-pro, sans-serif;
 	border:0;
-	height: 100%;
-	width: 100%;
 }
 
 p {
@@ -45,10 +43,6 @@ h1 {
 	font-style: italic;
 	text-align: center;
 }
-
-.crosshair { 
-	cursor: crosshair; 
-			}
 
 .flex-container {
     display: flex;
@@ -136,47 +130,3 @@ max-width:100%;
 		justify-content: center;
 		align-items: center;
   }
-  
-.marquee {
-	white-space: nowrap;
-	overflow: hidden;
-	display: inline-block;
-	animation: marquee 10s linear infinite;
-  }
-  
-.marquee p {
-	display: inline-block;
-  }
-  
-@keyframes marquee {
-	0% {
-	  transform: translate3d(0, 0, 0);
-	}
-	100% {
-	  transform: translate3d(-50%, 0, 0);
-	}
-  }
-
-  
-  /* Embed container with responsive width and height */
-  .embed-container {
-	position: relative;
-	width: 100%;
-	height: 100vh; /* Full height of the viewport */
-  }
-  
-  embed {
-	width: 100%;
-	height: 100%;
-	border: none;
-	object-fit: cover;
-  }
-
-  .responsive-embed {
-	width: 100%;
-	height: 100%;
-	border: none;
-  }
-
-
-
