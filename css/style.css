@@ -1,3 +1,10 @@
+html {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+  }
+
 body {
 	font-size: 1.2em;
 	margin: 0;
@@ -12,6 +19,8 @@ body {
 	-moz-osx-font-smoothing: grayscale;
 	font-family: sofia-pro, sans-serif;
 	border:0;
+	height: 100%;
+	width: 100%;
 }
 
 p {
@@ -177,7 +186,8 @@ max-width:100%;
   embed {
 	width: 100%;
 	height: 100%;
-	border: none; /* Optional: removes the default border around the embed */
+	border: none;
+	object-fit: cover;
   }
 
 
