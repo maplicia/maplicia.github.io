@@ -190,5 +190,11 @@ max-width:100%;
 	object-fit: cover;
   }
 
+  .responsive-embed {
+	width: 100%;
+	height: 100%;
+	border: none;
+  }
+
 
 
