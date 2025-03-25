@@ -126,11 +126,16 @@ max-width:100%;
 	.images-wrapper {
 	column-count: 1;
 	}
+	.wrapper {
+		visibility:hidden;
+	}
 }
 
 .wrapper {
-	max-width: 100%;
-	overflow: hidden;
+		max-width: 100%;
+		overflow: hidden;
+		justify-content: center;
+		align-items: center;
   }
   
 .marquee {
