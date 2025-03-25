@@ -136,8 +136,7 @@ max-width:100%;
 	column-count: 1;
 	}
 	.wrapper {
-		height:fit-content;
-		width:fit-content;
+		visibility: hidden;
 	}
 }
 
