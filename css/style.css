@@ -1,5 +1,5 @@
 html {
-	margin: 0;
+	margin: auto;
 	padding: 0;
 	height: 100%;
 	width: 100%;
@@ -7,7 +7,7 @@ html {
 
 body {
 	font-size: 1.2em;
-	margin: 0;
+	margin: auto;
 	padding: 3em 5vw;
 	--color-text: #111;
 	--color-bg: #f8ecde;
