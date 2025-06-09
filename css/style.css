@@ -125,8 +125,8 @@ max-width:100%;
 }
 
 .wrapper {
-		height: 20em;
-		width: 30em;
+		width:75%; 
+		height:50vw;
 		justify-content: center;
 		align-items: center;
   }
