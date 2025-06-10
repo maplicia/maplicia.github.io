@@ -110,7 +110,14 @@ column-count:3;
 margin: 0 auto;
 padding: 2em;
 max-width:100%;
- }  
+ } 
+
+.wrapper {
+		width:60%; 
+		height:35vw;
+		justify-content: center;
+		align-items: center;
+  }
 
 @media screen and (max-width: 600px) {
 	.column {
@@ -122,11 +129,10 @@ max-width:100%;
 	.images-wrapper {
 	column-count: 1;
 	}
+	.wrapper{
+	width:30%;
+	height:60vw;
+	}
 }
 
-.wrapper {
-		width:60%; 
-		height:35vw;
-		justify-content: center;
-		align-items: center;
-  }
+
