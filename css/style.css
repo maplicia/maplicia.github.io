@@ -113,8 +113,8 @@ max-width:100%;
  } 
 
 .wrapper {
-		width:60%; 
-		height:35vw;
+		width:100vw;
+		height:100vh;
 		justify-content: center;
 		align-items: center;
   }
@@ -130,8 +130,8 @@ max-width:100%;
 	column-count: 1;
 	}
 	.wrapper{
-	width:30%;
-	height:60vw;
+	width:100vw;
+	height:100vh;
 	}
 }
 
