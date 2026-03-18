@@ -166,6 +166,7 @@ max-width:100%;
     width: 100%;
     padding-top: 56.25%; /* 16:9 Aspect Ratio */
     overflow: hidden;
+	border: none;
 }
 
 /* Style the iframe to fill the container */
